@@ -1,6 +1,7 @@
 import CytoscapeComponent from 'react-cytoscapejs';
-
+import { Link } from 'react-router-dom';
 import './styles.css';
+
 
 interface GraphVisualizatorProps {
   title: string;
@@ -11,7 +12,7 @@ export function GraphVisualizator({ title, graphData } : GraphVisualizatorProps)
   
   return (
     <>
-      <div>
+      <div id="menu"> 
         <h1>{ title }</h1>
         <div
           style={{
@@ -21,7 +22,7 @@ export function GraphVisualizator({ title, graphData } : GraphVisualizatorProps)
         >
           <CytoscapeComponent
             elements={graphData}
-            style={{ width: "100%", height: "500px" }}
+            style={{ width: "100%", height: "600px" }}
             layout={{
               name: 'breadthfirst',
               fit: true,

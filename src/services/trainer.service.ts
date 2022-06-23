@@ -21,7 +21,7 @@ export class TrainerService {
 
     trainers.push(trainer);
   }
-
+  
   public insertConnection(trainer_name: string, pokemon_name: string): void {
     const connection: TrainerConnection = {
       trainer_name,

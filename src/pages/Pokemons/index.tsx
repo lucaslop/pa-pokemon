@@ -54,11 +54,11 @@ export function Pokemons() {
 
   return (
    
-    <div className="backgound">
+    <div className="background">
       <div id="container">
         <Link className="button-56" to="/trainers-connections">Grafo de conexões de treinadores com pokemons</Link>
         <br />
-        <Link className="button-56" to="/trainers-connections">Veja os seus pokemons</Link>
+        <Link className="button-56" to="/trainer">Veja os seus pokemons</Link>
       </div>
       <h1>Olá { username }</h1>
 

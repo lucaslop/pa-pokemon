@@ -9,6 +9,7 @@ export class PokemonService {
     return pokemons;
   }
 
+
   findAllTypes(): string[] {
     return types;
   }

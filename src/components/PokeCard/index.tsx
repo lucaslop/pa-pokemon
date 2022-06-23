@@ -1,6 +1,7 @@
 import { Pokemon } from '../../models/pokemon.model';
 import './styles.css';
 
+
 interface PokeCardProps {
   pokemon: Pokemon;
   capiturar: (pokemon: Pokemon) => void;
